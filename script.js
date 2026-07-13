@@ -25,3 +25,6 @@ document.querySelector('.next').addEventListener('click',()=>{index=(index+1)%ac
 document.querySelector('.prev').addEventListener('click',()=>{index=(index-1+active.length)%active.length;show()});
 modal.addEventListener('click',e=>{if(e.target===modal)modal.classList.remove('open')});
 document.addEventListener('keydown',e=>{if(e.key==='Escape')modal.classList.remove('open')});
+const backToTop=document.getElementById('backToTop');
+window.addEventListener('scroll',()=>backToTop.classList.toggle('show',window.scrollY>500));
+backToTop.addEventListener('click',()=>window.scrollTo({top:0,behavior:'smooth'}));
