@@ -1,4 +1,4 @@
-# Khushbu Parmar — Backend & Odoo Developer Portfolio
+# Khushbu Parmar — Backend and Odoo Developer Portfolio
 
 A responsive digital portfolio highlighting Odoo, Python backend development, PostgreSQL, data migration, APIs and selected projects.
 

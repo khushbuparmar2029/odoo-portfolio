@@ -13,3 +13,31 @@
 .project:hover,.skill:hover,.panel:hover{transform:translateY(-4px);transition:.25s ease;border-color:rgba(183,138,201,.38)}
 .site-header nav{white-space:nowrap}
 @media(max-width:1120px){.site-header nav{gap:18px}.site-header nav a{font-size:.9rem}}
+
+/* Final requested refinements */
+.brand{
+  font-size:1.22rem;
+  font-weight:700;
+  letter-spacing:-.02em;
+  white-space:nowrap;
+}
+.download-btn{
+  background:rgba(135,90,123,.14);
+  color:#f4eaf7;
+  border-color:rgba(183,138,201,.55);
+}
+.download-btn::before{
+  content:"↓";
+  margin-right:8px;
+  font-weight:700;
+}
+.download-btn:hover,
+.btn.secondary:hover{
+  background:rgba(135,90,123,.24);
+  border-color:#b78ac9;
+}
+@media(max-width:560px){
+  .actions .btn{
+    width:100%;
+  }
+}
